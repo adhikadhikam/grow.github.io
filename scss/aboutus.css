@@ -1,0 +1,185 @@
+/*----------- variable css start here ------------------*/
+/*----------- default css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- aboutus css starts here ------------------*/
+.aboutus-spotlight-box {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.aboutus-spotlight-box .picture-box {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.aboutus-spotlight-box .picture-box .pic-copy-box {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 100%;
+}
+
+.aboutus-spotlight-box .picture-box .pic-copy-box .content-box {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 40%;
+	border: dashed 2px #a1a1a1;
+	padding: 40px;
+	position: relative;
+	border-radius: 15px;
+}
+
+.aboutus-spotlight-box .picture-box .pic-copy-box .content-box .p {
+	color: #ffffff;
+}
+
+.aboutus-spotlight-box .picture-box .pic-copy-box .content-box .h1 {
+	color: #ffffff;
+}
+
+.aboutus-copy-box {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.aboutus-copy-box:first-child {
+	margin-top: 0;
+}
+
+.preschool-box .h2 {
+	margin: 25px 0 15px 0;
+}
+
+.preschool-box .p {
+	margin: 0 0 40px 0;
+}
+
+.preschool-box .preschool-carosel {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.preschool-box .preschool-carosel .moments-box-content .pic-box {
+	display: flex;
+	justify-content: center;
+	padding: 0 1.5px;
+	max-width: 477px;
+	border-radius: 25px;
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 3px;
+}
+
+.preschool-box .slick-dots li {
+	position: relative;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.preschool-box .slick-dots li button {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 12px;
+	height: 12px;
+	padding: 5px;
+	cursor: pointer;
+	color: transparent;
+	border: 0;
+	outline: none;
+	background: #ec4f8c;
+	border-radius: 100px;
+}
+
+.preschool-box .slick-dots li.slick-active button:before {
+	opacity: .75;
+	color: transparent;
+}
+
+.preschool-box .slick-dots li.slick-active button {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 12px;
+	height: 12px;
+	padding: 5px;
+	cursor: pointer;
+	color: transparent;
+	border: 0;
+	outline: none;
+	background: #a1a1a1;
+	border-radius: 100px;
+}
+
+.preschool-box .slick-dots {
+	bottom: -30px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.director-box .right {
+		margin-top: 0;
+	}
+
+	.director-box .right .big-circle {
+		width: 340px;
+		height: 340px;
+	}
+
+	.director-box .right .big-circle .pic-circle {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.preschool-box .slick-dots li {
+		width: 8px;
+		height: 8px;
+	}
+
+	.preschool-box.slick-dots li button {
+		width: 8px;
+		height: 8px;
+	}
+
+	.preschool-box .slick-dots li.slick-active button {
+		width: 8px;
+		height: 8px;
+	}
+
+	.aboutus-spotlight-box .picture-box .pic-copy-box .content-box {
+		width: 100%;
+	}
+
+	.preschool-box .preschool-carosel .moments-box-content .pic-box {
+		width: 250px;
+	}
+}

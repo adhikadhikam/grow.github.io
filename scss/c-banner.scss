@@ -1,0 +1,119 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+/*----------- banner css start here ------------------*/
+
+
+
+
+.c-banner-box{  background-color:#ebf5fb;
+
+    .banner-content{ display:flex; align-items:center;justify-content: space-between;
+        .first{ align-self: flex-end;
+            .hand-pic{ text-align: center;
+                .hand-banner{ max-width:241px; max-height:217px; width:80%;}
+            }
+        }
+        .second{ font-family:$work_sanssemibold; color:$black; font-size:28px;  }
+        .third{ background-color:$blue;  -webkit-box-shadow: -5px -1px 10px 3px rgba(0,0,0,0.2);-moz-box-shadow: -5px -1px 10px 3px rgba(0,0,0,0.2);box-shadow: -5px -1px 10px 3px rgba(0,0,0,0.2);
+            .copy-box{ text-align: center; padding:20px 40px;
+                .tel {
+                    img { max-width:48px; max-height:48px;  width:100%; } 
+                     }
+                .h2{ font-family:$work_sanssemibold; color:$white; font-size:$size36;  margin: 15px 0; 
+                    &:before{content:none;}
+                }
+                .p{ font-family:$work_sansregular; color:$white; font-size:$size18;  }
+            }
+        
+        }
+    
+    }
+
+}
+
+
+
+/*----------- responsive css start here ------------------*/
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .c-banner-box .banner-content .second { font-size:22px;}
+    .c-banner-box .banner-content .third .copy-box .h2 { font-size:24px;}
+    .c-banner-box .banner-content .third .copy-box .p { font-size:15px;}
+    .c-banner-box .banner-content .third .copy-box { padding:10px;}
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+.c-banner-box .banner-content .second { font-size:20px;}
+    .c-banner-box .banner-content .third .copy-box .h2 { font-size:22px;}
+    .c-banner-box .banner-content .third .copy-box .p { font-size:14px;}
+    .c-banner-box .banner-content .third .copy-box { padding:10px;}
+    .c-banner-box .banner-content .first .hand-pic .hand-banner { width:75%;}
+     .c-banner-box .banner-content .third .copy-box .tel img { width:20%;}
+
+}
+
+
+@media only screen and (min-width:568px) and (max-width:640px) {
+.c-banner-box .banner-content .second { font-size:18px;}
+.c-banner-box .banner-content .third .copy-box .h2 { font-size:20px;}
+.c-banner-box .banner-content .third .copy-box .p { font-size:14px;}
+.c-banner-box .banner-content .third .copy-box { padding:7px;}
+.c-banner-box .banner-content .third .copy-box .tel img { width:20%;}
+
+}
+
+
+@media only screen and (max-width:567px) {
+
+    .c-banner-box .banner-content { flex-wrap:wrap;}
+    .c-banner-box .banner-content .third { order:2;}
+    .c-banner-box .banner-content .second { order:0; font-size:18px; padding:20px 15px; text-align: center;}
+     .c-banner-box .banner-content .first { order:1;}
+    .c-banner-box .banner-content .third .copy-box .tel img { width:12%;}
+ 
+
+}
+
+

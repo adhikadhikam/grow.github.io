@@ -1,0 +1,162 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- mama voice css start here ------------------*/
+.mama-voice-box .mama-voice-carosel {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box {
+	width: 80%;
+	margin: 50px auto;
+	padding: 40px;
+	border: dashed 2px #59abdf;
+	position: relative;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .header {
+	font-size: 20px;
+	font-family: "work_sanssemibold";
+	color: #000000;
+	margin-bottom: 25px;
+}
+
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .copy {
+	font-size: 18px;
+	font-family: "work_sansregular";
+	color: #000000;
+}
+
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box:before {
+	position: absolute;
+	top: -80px;
+	right: -15px;
+	content: '\275E';
+	color: #deeef9;
+	font-size: 170px;
+}
+
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box:after {
+	position: absolute;
+	left: 50%;
+	bottom: -38px;
+	content: url(../images/arrow.jpg);
+	transform: translateX(-50%);
+	width: 47px;
+	height: 38px;
+}
+
+.mama-voice-box .mama-voice-carosel .title-box {
+	text-align: center;
+}
+
+.mama-voice-box .mama-voice-carosel .title-box .text {
+	font-size: 24px;
+	font-family: "work_sanssemibold";
+	color: #2d3691;
+	margin-top: 25px;
+}
+
+.mama-voice-box .mama-voice-carosel .slick-prev:before {
+	color: #ec4f8c;
+	font-size: 50px;
+}
+
+.mama-voice-box .mama-voice-carosel .slick-next:before {
+	color: #ec4f8c;
+	font-size: 50px;
+}
+
+.mama-voice-box .mama-voice-carosel .slick-next:before {
+	content: ' \203A';
+}
+
+.mama-voice-box .mama-voice-carosel .slick-prev:before {
+	content: ' \2039';
+}
+
+.mama-voice-box .mama-voice-carosel .slick-prev {
+	top: 40%;
+}
+
+.mama-voice-box .mama-voice-carosel .slick-next {
+	top: 40%;
+}
+
+.mama-voice-box .mama-voice-carosel .slick-next {
+	right: -25px;
+}
+
+.mama-voice-box .mama-voice-carosel .slick-prev {
+	left: -25px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .header {
+		font-size: 18px;
+	}
+
+	.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .copy {
+		font-size: 16px;
+	}
+
+	.mama-voice-box .mama-voice-carosel .title-box .text {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box {
+		padding: 30px 20px;
+	}
+
+	.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .header {
+		font-size: 16px;
+	}
+
+	.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .copy {
+		font-size: 14px;
+	}
+
+	.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box:before {
+		top: -45px;
+		right: -4px;
+		font-size: 100px;
+	}
+
+	.mama-voice-box .mama-voice-carosel .title-box .text {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.mama-voice-box {
+		margin-top: 100px;
+	}
+}

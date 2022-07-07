@@ -1,0 +1,344 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- school css start here ------------------*/
+.school-spotlight-box {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.school-spotlight-box .picture-box {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.school-spotlight-box .picture-box .pic-copy-box {
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	width: 100%;
+}
+
+.school-spotlight-box .picture-box .pic-copy-box .content-box {
+	background-color: rgba(0, 0, 0, 0.6);
+	border: dashed 2px #a1a1a1;
+	padding: 20px;
+	position: relative;
+	border-radius: 15px;
+	float: right;
+}
+
+.school-spotlight-box .picture-box .pic-copy-box .content-box .h1 {
+	color: #ffffff;
+}
+
+.school-spotlight-box .picture-box .pic-copy-box-left {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 100%;
+}
+
+.school-spotlight-box .picture-box .pic-copy-box-left .content-box {
+	background-color: rgba(0, 0, 0, 0.6);
+	border: dashed 2px #a1a1a1;
+	padding: 20px;
+	position: relative;
+	border-radius: 15px;
+	float: left;
+}
+
+.school-spotlight-box .picture-box .pic-copy-box-left .content-box .h1 {
+	color: #ffffff;
+}
+
+.school-fascility-box .makinohara {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.school-fascility-box .makinohara .left {
+	margin: 25px 0;
+}
+
+.school-fascility-box .makinohara .right {
+	width: 50%;
+}
+
+.school-fascility-box .makinohara .right .content-box {
+	width: 90%;
+	float: right;
+}
+
+.school-fascility-box .makinohara .right .content-box .p {
+	margin-bottom: 20px;
+}
+
+.school-fascility-box .makinohara .right .card-details ul {
+	margin: 0;
+	padding: 0;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li {
+	list-style: none;
+	display: flex;
+	padding: 10px 0;
+	color: #000000;
+	font-size: 16px;
+	font-family: "work_sansregular";
+}
+
+.school-fascility-box .makinohara .right .card-details ul li .bullet {
+	margin-right: 10px;
+	max-width: 15px;
+	width: 100%;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li a {
+	color: #000000;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li a:hover {
+	color: #0071cd;
+}
+
+.school-fascility-box .issha {
+	display: flex;
+	align-items: center;
+}
+
+.school-fascility-box .issha .right {
+	margin: 25px 0;
+}
+
+.school-fascility-box .issha .left {
+	width: 50%;
+}
+
+.school-fascility-box .issha .left .content-box {
+	width: 90%;
+	float: right;
+}
+
+.school-fascility-box .issha .left .content-box .p {
+	margin-bottom: 20px;
+}
+
+.school-fascility-box .issha .left .card-details ul {
+	margin: 0;
+	padding: 0;
+}
+
+.school-fascility-box .issha .left .card-details ul li {
+	list-style: none;
+	display: flex;
+	padding: 10px 0;
+	color: #000000;
+	font-size: 16px;
+	font-family: "work_sansregular";
+}
+
+.school-fascility-box .issha .left .card-details ul li .bullet {
+	margin-right: 10px;
+	max-width: 15px;
+	width: 100%;
+}
+
+.school-fascility-box .issha .left .card-details ul li a {
+	color: #000000;
+}
+
+.school-fascility-box .issha .left .card-details ul li a:hover {
+	color: #0071cd;
+}
+
+.facility-tab ul {
+	margin: 0;
+	padding: 0;
+	margin: 0 0 45px 0;
+}
+
+.facility-tab ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	padding: 20px;
+	font-family: "work_sansregular";
+	font-size: 24px;
+	color: #000000;
+	padding: 10px 20px;
+}
+
+.facility-tab ul li.active {
+	border: solid 2px #ec4f8c;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: relative;
+}
+
+.facility-tab ul li.active:before {
+	position: absolute;
+	bottom: -24px;
+	left: 50%;
+	transform: translateX(-50%);
+	content: url(../images/pink-arrow.jpg);
+}
+
+.facility .p {
+	margin: 0 0 30px 0;
+}
+
+.course-box.course-tab ul {
+	margin: 0 0 25px 0;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li:first-child .bullet img {
+	width: 18px;
+	height: 18px;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li:nth-child(2) .bullet img {
+	width: 12px;
+	height: 18px;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li:nth-child(3) .bullet img {
+	width: 18px;
+	height: 18px;
+}
+
+.school-fascility-box .makinohara .right .card-details ul li:lastchild .bullet img {
+	width: 18px;
+	height: 13px;
+}
+
+.school-fascility-box .issha .left .card-details ul li:first-child .bullet img {
+	width: 18px;
+	height: 18px;
+}
+
+.school-fascility-box .issha .left .card-details ul li:nth-child(2) .bullet img {
+	width: 12px;
+	height: 18px;
+}
+
+.school-fascility-box .issha .left .card-details ul li:nth-child(3) .bullet img {
+	width: 18px;
+	height: 18px;
+}
+
+.school-fascility-box .issha .left .card-details ul li:lastchild .bullet img {
+	width: 18px;
+	height: 13px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (max-width: 767px) {
+	.school-spotlight-box .picture-box .pic-copy-box-left .content-box {
+		padding: 10px;
+	}
+
+	.school-spotlight-box .picture-box .pic-copy-box-left {
+		top: 25px;
+	}
+
+	.school-spotlight-box .picture-box .pic-copy-box .content-box {
+		padding: 10px;
+	}
+
+	.school-spotlight-box .picture-box .pic-copy-box {
+		bottom: 20px;
+	}
+
+	.school-fascility-box .makinohara {
+		flex-wrap: wrap;
+	}
+
+	.school-fascility-box .makinohara .left {
+		order: 0;
+	}
+
+	.school-fascility-box .makinohara .right {
+		width: 100%;
+		text-align: center;
+	}
+
+	.school-fascility-box .makinohara .right .content-box {
+		width: 100%;
+		float: none;
+	}
+
+	.school-fascility-box .issha {
+		flex-wrap: wrap;
+	}
+
+	.school-fascility-box .issha .right {
+		order: 0;
+	}
+
+	.school-fascility-box .issha .left {
+		width: 100%;
+		text-align: center;
+	}
+
+	.school-fascility-box .issha .left .content-box {
+		width: 100%;
+		float: none;
+	}
+
+	.facility-tab ul li {
+		font-size: 16px;
+	}
+
+	.facility-tab ul li.active:before {
+		bottom: -21px;
+	}
+
+	.card-details {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.facility-tab ul li {
+		font-size: 16px;
+	}
+
+	.facility-tab ul li.active {
+		padding: 10px;
+	}
+
+	.facility-tab ul {
+		display: flex;
+		align-items: center;
+	}
+
+	.facility-tab ul li.active:before {
+		bottom: -21px;
+	}
+}

@@ -1,0 +1,182 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+
+
+/*----------- course css start here ------------------*/
+
+.course-box { 
+    
+    .big-pic { position:relative; text-align: $center; width:100%; max-width:1440px; margin:0px auto;
+        .welcome-box{ position:absolute; left: calc(100% - 91%);  top:30px; width: 100%;
+            .bg-box{ background-color:rgba(256, 256, 256, 0.8); padding:35px; border-radius:15px; width: 55%;
+    text-align: left;
+            
+                .h2{
+                    &:before{ content:none;}
+                }
+                .p{ margin:10px 0;
+                &:first-child{ margin-top:0;}
+                }
+            
+            }
+        
+        }
+    
+    }
+
+
+    .course-list {
+        ul{ margin:0; padding:0;
+            li{ list-style:none; width:calc(33.33% - 5px); display:inline-flex; margin:0; padding:0; margin-bottom:50px; vertical-align: top; padding: 20px; position:relative;
+                .picture-box{ width:100%;
+                    .first-box { border:dashed 2px $light-blue; padding:10px; width:100%; position:relative; border-radius:15px; min-height:560px;
+                    .second-box {
+                        .h3 { padding:20px 0 0 10px; clear:both; }
+                        .pic-box{ text-align: center; height:210px; background-color:$white; border-radius: 15px;  overflow: hidden; max-height:100%; }
+                        .copy-box{ padding-left:10px;
+                            .last{padding:20px 0 40px 0;}
+                            .p{
+                                span{ display:block;}
+                                
+                            }
+                        }
+                        
+                        }
+                        .more{ position:absolute; bottom:-50px; left:10%;
+                             .click { background-color:$pink; font-family:$work_sanssemibold;  font-size:$size18; color:$white; text-align:$center;  border-radius:10px; display:inline-block; @extend.animate-3;  margin:30px 0;
+    a {color:$white; padding:12px 15px; display:inline-block; border-radius:10px;
+        &:hover {  color:$white; padding:12px 15px; }
+    }
+} 
+                        }  
+                        
+                    }
+                }
+            
+            }
+        }
+        
+    }
+
+}
+
+
+
+
+.course-box .course-list ul li:hover .hovereffect {width:100%;height:auto;float:left;overflow:hidden;position:relative;text-align:center;cursor:default;}
+.course-box .course-list ul li:hover .hovereffect .overlay { display: flex;justify-content: center;align-items: center;width:100%;height:100%;position:absolute;overflow:hidden;top:0;left:0;opacity:0;background-color:rgba(0,0,0,0.3);
+-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.course-box .course-list ul li:hover .hovereffect img {display:block;position:relative;-webkit-transition:all .4s linear;transition:all .4s linear;}
+.course-box .course-list ul li:hover .hovereffect img {-ms-transform:scale(1.2);-webkit-transform:scale(1.2);transform:scale(1.2);}
+.course-box .course-list ul li:hover .hovereffect .overlay {opacity:1;filter:alpha(opacity=100);}
+
+
+
+
+
+
+
+
+
+
+/*----------- responsive css start here ------------------*/
+
+
+@media only screen and (min-width:992px) and (max-width:1139px) {
+ 
+ .course-box .big-pic .welcome-box .bg-box { width: 90%; } 
+ .course-box .big-pic .welcome-box .bg-box{ padding:15px;}
+ .course-box .big-pic .welcome-box{ left: calc(100% - 97%);}
+    
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.course-box .course-list ul li {width: calc(50% - 5px);	}
+
+    .course-box .big-pic .welcome-box .bg-box { width:100%; padding:15px;}
+    .course-box .big-pic .welcome-box {  position: relative; width:90%; left: auto;  margin: 0px auto;  margin-top: -120px;}
+    
+    
+    
+	}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.course-box .course-list ul li {width: calc(50% - 5px); margin-bottom: 20px;	}
+
+	.course-box .course-list ul li .picture-box .first-box .second-box .copy-box {display: none;}
+
+	.course-box .course-list ul li .picture-box .first-box {min-height: 275px;	}
+    
+    .course-box .big-pic .welcome-box {  position: relative; width:90%; left: auto;  margin: 0px auto;  margin-top: -150px;}
+    .course-box .big-pic .welcome-box .bg-box{ padding:15px; width:100%; margin: 0px auto;     text-align: center;}
+    
+    
+    .course-box .course-list ul li .picture-box .first-box .second-box .pic-box { height:145px;}
+	
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 479px) {
+	.course-box .course-list ul li {
+		width: 100%;
+	}
+
+	.course-box .course-list ul li .picture-box .first-box .second-box .copy-box {
+		display: none;
+	}
+
+	.course-box .course-list ul li .picture-box .first-box {
+		min-height: 270px;
+	}
+    
+     
+    .course-box .big-pic .click { margin:15px 0}
+    
+}
+

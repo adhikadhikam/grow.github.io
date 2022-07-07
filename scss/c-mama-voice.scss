@@ -1,0 +1,108 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+
+
+/*----------- mama voice css start here ------------------*/
+
+.mama-voice-box { 
+
+    .mama-voice-carosel { width:90%; margin:0px auto;
+        
+        .mama-box-content { 
+        .mama-box{ width:80%; margin:50px auto; padding:40px; border:dashed 2px $light-blue;  position:relative; border-radius: 15px;text-align:$center;
+
+            
+            .header { font-size:$size20; font-family:$work_sanssemibold; color:$black; margin-bottom:25px;  }
+            .copy{ font-size:$size18; font-family:$work_sansregular; color:$black;  }
+            
+            &:before{ position:absolute; top:-80px; right:-15px; content:'\275E'; color:#deeef9; font-size:170px; }
+            &:after{ position:absolute; left:50%; bottom:-38px; content:url(../images/arrow.jpg); transform:translateX(-50%); width:47px; height:38px;
+            
+            
+            }
+        } 
+            }
+        
+        .title-box { text-align:$center;
+                .text{ font-size:$size24; font-family:$work_sanssemibold; color:$blue; margin-top:25px;}
+         }
+
+     .slick-prev:before { color:$pink; font-size: 50px;}
+     .slick-next:before { color:$pink; font-size: 50px;}
+     .slick-next:before { content:' \203A'; } 
+     .slick-prev:before { content:' \2039'; }
+     .slick-prev{ top:40%;}
+     .slick-next{ top:40%;}
+     .slick-next { right: -25px;}
+     .slick-prev { left: -25px;}
+        
+}    
+}    
+
+/*----------- responsive css start here ------------------*/
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .header { font-size:18px;}
+.mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .copy{ font-size:16px; }
+.mama-voice-box .mama-voice-carosel .title-box .text{ font-size:22px; }
+    
+}
+
+
+
+
+
+@media only screen and (max-width:767px) { 
+
+    .mama-voice-box .mama-voice-carosel .mama-box-content .mama-box { padding:30px 20px;}
+    .mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .header { font-size:16px;}
+    .mama-voice-box .mama-voice-carosel .mama-box-content .mama-box .copy{ font-size:14px; }
+    .mama-voice-box .mama-voice-carosel .mama-box-content .mama-box:before {top: -45px; right: -4px; font-size: 100px;}
+    .mama-voice-box .mama-voice-carosel .title-box .text{ font-size:20px; }
+
+}
+
+
+
+
+
+@media only screen and (max-width:567px) {
+    .mama-voice-box { margin-top:100px;}
+   
+}

@@ -1,0 +1,73 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- subsidy css start here ------------------*/
+.subsidy .click {
+	margin: 15px 0 0 0;
+}
+
+.subsidy-box .h2 span {
+	display: inline-block;
+}
+
+.subsidy-copy .second-copy {
+	margin: 50px 0;
+}
+
+.subsidy-copy .third-copy {
+	border-bottom: solid 1px #a1a1a1;
+	padding-bottom: 50px;
+}
+
+.subsidy-copy .pink-text {
+	color: #ec4f8c;
+	text-decoration: underline;
+}
+
+.subsidy-copy .pink-text a {
+	color: #ec4f8c;
+	text-decoration: underline;
+}
+
+.pdf-icon {
+	text-align: right;
+	margin: 20px 0;
+}
+
+.pdf-icon a img {
+	width: 25px;
+	height: 23px;
+}
+
+.aqua-blue-bg-box .subsidy-box .p {
+	color: #ffffff;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (max-width: 991px) {
+	.subsidy-box .h2 span {
+		display: block;
+	}
+}

@@ -1,0 +1,219 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- css start here ------------------*/
+.blue-map-box {
+	background-color: #0071cd;
+	position: relative;
+	z-index: 2;
+}
+
+.blue-map-box .map-details-box {
+	width: 98%;
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 0 15px 0 15px;
+}
+
+.blue-map-box .map-details-box .main-box {
+	display: flex;
+}
+
+.blue-map-box .map-details-box .main-box .left {
+	width: 40%;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box {
+	width: 100%;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content {
+	padding: 0;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .copy-content {
+	color: #ffffff;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .h3 {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .h4 {
+	font-size: 20px;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .p {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .p .b {
+	font-weight: bold;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel {
+	color: #ffffff;
+	padding: 40px 0 0 0;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul {
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li {
+	list-style: none;
+	display: flex;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "work_sansregular";
+	padding: 15px 0;
+	align-items: center;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li .bullet {
+	margin-right: 10px;
+	display: block;
+	width: 40px;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li a {
+	color: #ffffff;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li a:hover {
+	color: #a8efaa;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li:last-child {
+	padding: 15px 0 0 0;
+}
+
+.blue-map-box .map-details-box .right {
+	width: 60%;
+	position: relative;
+}
+
+.blue-map-box .map-details-box .right .map-pic {
+	position: relative;
+}
+
+.blue-map-box .map-details-box .right .map-pic .view {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+.blue-map-box .map-details-box .right .map-pic .pic-max-content {
+	max-width: max-content;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li:first-child .bullet img {
+	width: 30px;
+	height: 30px;
+}
+
+.blue-map-box .map-details-box .main-box .copy-box .all-content .mailtel ul li:last-child .bullet img {
+	width: 30px;
+	height: 20px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .h3 {
+		font-size: 20px;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .p {
+		font-size: 15px;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .mailtel ul li {
+		font-size: 15px;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .mailtel ul li .bullet {
+		width: 20px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .h3 {
+		font-size: 18px;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .p {
+		font-size: 14px;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .mailtel ul li {
+		font-size: 14px;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .mailtel ul li .bullet {
+		width: 20px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.blue-map-box .map-details-box .main-box {
+		flex-wrap: wrap;
+	}
+
+	.blue-map-box .map-details-box .main-box .left {
+		width: 100%;
+		order: 1;
+		padding: 15px 20px;
+	}
+
+	.blue-map-box .map-details-box .main-box .right {
+		width: 100%;
+		order: 0;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box {
+		position: relative;
+		width: 100%;
+		max-width: none;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .mailtel {
+		padding: 40px 0 0 0;
+	}
+
+	.blue-map-box .map-details-box .main-box .left .copy-box .all-content .mailtel ul {
+		padding: 20px 0 0 0;
+	}
+
+	.blue-map-box .map-details-box {
+		padding: 0;
+		width: 100%;
+	}
+}

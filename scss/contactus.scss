@@ -1,0 +1,146 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+/*----------- contact css start here ------------------*/
+
+
+
+.contact-us-box{
+    
+    .color-box{ width:100%; margin:0px auto;
+        background: linear-gradient(to right, #0071cd 0%, #0071cd 50%, #ebf5fb 50%, #ebf5fb 100%);
+     
+        .left-box{ background-color: $mid-blue; width:100%;
+            .content-box{ padding:50px 50px 50px 0; 
+                .h2{ margin-left:40px; color:$white;}
+                .p{ color:$white; }
+            
+            }
+        
+        }
+        .right-box{ background-color:#ebf5fb; width:100%;
+            .content-box{ padding:50px 0 50px 50px;
+                    .h3{color:$black; margin:25px 0; }
+                 
+                
+               
+               .form-box {
+                        ul{ margin:0; padding:0;
+                            li{ list-style:none; display:list-item; width:100%; margin:0; padding:0; margin-bottom:30px;
+                            
+                            
+.form-group {  position: relative; font-family:$work_sansregular; font-size:$size18; color:$black;
+
+  & + .form-group {
+    margin-top: 30px;
+  }
+}
+
+.form-label {  position: absolute;  left: 0;  top: 10px; z-index: 10; font-family:$work_sansregular; font-size:$size18; color:$black;
+  transition: transform 150ms ease-out, font-size 150ms ease-out;
+     span{ color:$pink; }
+}
+
+.focused .form-label {  transform: translateY(-125%); font-family:$work_sansregular; font-size:$size15; color:$mid-blue;
+   
+}
+
+.form-input {  position: relative;  padding: 12px 0px 5px 0;  width: 100%;  outline: 0;  border: 0;  box-shadow: 0 1px 0 0 #c7c7c7; font-family:$work_sansregular; font-size:$size18; color:$black;
+  transition: box-shadow 150ms ease-out; background: transparent;
+
+  &:focus {
+    box-shadow: 0 2px 0 0 $mid-blue;
+  }
+}
+                               
+
+.form-input.filled {  box-shadow: 0 2px 0 0 #a8efaa;}
+                            
+                            
+                            }
+                        }
+                        
+                        
+                    }
+            }
+        
+        }
+    }
+    
+}
+
+
+:focus{outline: none;}
+.error{  font-family:$work_sansregular; font-size:12px; color:$pink; padding:10px 10px 10px 0; display:none; text-align: left;}
+
+
+
+
+
+
+
+
+
+
+/*----------- responsive css start here ------------------*/
+
+
+
+@media only screen and (max-width:767px) { 
+
+.contact-us-box .color-box { background: none; }
+.contact-us-box .color-box .custom-container{ padding:0; width:100%;}
+.contact-us-box .color-box .left-box .content-box { width: 80%;  margin: 0px auto;  text-align: center; padding: 50px 0;}
+.contact-us-box .color-box .left-box .content-box .h2 { margin-left:0;}
+    
+    
+.contact-us-box .color-box .right-box .content-box { width: 80%;  margin: 0px auto;  text-align: center; padding: 25px 0;}
+    
+.contact-us-box .color-box .right-box .content-box .form-box ul li .form-label{ font-size:16px;}
+.contact-us-box .color-box .right-box .content-box .form-box ul li .form-input { font-size:16px; }
+.contact-us-box .color-box .right-box .content-box .form-box ul li .focused .form-label{ font-size:14px;}
+
+}
+
+
+
+@media only screen and (max-width:479px) { 
+    
+.contact-us-box .color-box .right-box .content-box .form-box ul li .form-label{ font-size:14px;}
+.contact-us-box .color-box .right-box .content-box .form-box ul li .form-input { font-size:14px; }
+.contact-us-box .color-box .right-box .content-box .form-box ul li .focused .form-label{ font-size:12px;}
+
+}

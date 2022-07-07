@@ -1,0 +1,122 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- few moments css start here ------------------*/
+.moments-box .h2 {
+	margin: 25px 0 15px 0;
+}
+
+.moments-box .p {
+	margin: 0 0 40px 0;
+}
+
+.moments-box .few-moments-carosel {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.moments-box .few-moments-carosel .moments-box-content .pic-box {
+	display: flex;
+	justify-content: center;
+	padding: 0 1.5px;
+	max-width: 477px;
+	border-radius: 25px;
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 3px;
+}
+
+.moments-box .slick-dots li {
+	position: relative;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.moments-box .slick-dots li button {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 12px;
+	height: 12px;
+	padding: 5px;
+	cursor: pointer;
+	color: transparent;
+	border: 0;
+	outline: none;
+	background: #ec4f8c;
+	border-radius: 100px;
+}
+
+.moments-box .slick-dots li.slick-active button:before {
+	opacity: .75;
+	color: transparent;
+}
+
+.moments-box .slick-dots li.slick-active button {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 12px;
+	height: 12px;
+	padding: 5px;
+	cursor: pointer;
+	color: transparent;
+	border: 0;
+	outline: none;
+	background: #a1a1a1;
+	border-radius: 100px;
+}
+
+.moments-box .slick-dots {
+	bottom: -30px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (max-width: 767px) {
+	.moments-box .slick-dots li {
+		width: 8px;
+		height: 8px;
+	}
+
+	.moments-box .slick-dots li button {
+		width: 8px;
+		height: 8px;
+	}
+
+	.moments-box .slick-dots li.slick-active button {
+		width: 8px;
+		height: 8px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.moments-box .few-moments-carosel .moments-box-content .pic-box {
+		width: 250px;
+	}
+}

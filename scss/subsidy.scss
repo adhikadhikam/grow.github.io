@@ -1,0 +1,97 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+/*----------- subsidy css start here ------------------*/
+
+
+.subsidy { 
+    .click{ margin:15px 0 0 0;}
+
+}
+
+
+.subsidy-box{
+    .h2{ 
+        span{ display:inline-block;}}
+
+}
+
+.subsidy-copy {
+    
+    .first-copy { }
+    .second-copy { margin:50px 0; }
+    .third-copy { border-bottom:solid 1px $gray; padding-bottom:50px; }
+    .pink-text { color:$pink; text-decoration: underline;
+        a{ color:$pink; text-decoration: underline;}
+    }
+    
+    
+    
+}
+    
+.pdf-icon{ text-align: right;margin:20px 0;
+    a{
+        img{ width:25px; height:23px;}
+    }
+
+}
+
+.aqua-blue-bg-box .subsidy-box .p{ color:$white;}
+
+
+
+
+
+
+
+
+
+/*----------- responsive css start here ------------------*/
+
+
+
+
+
+@media only screen  and (max-width:991px) {
+
+ .subsidy-box .h2 span{ display:block;}
+
+
+}
+
+
+
+

@@ -1,0 +1,108 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- faq css start here ------------------*/
+.faq-box {
+  /*----------- make initially c-faq-content: display:none then after clicking on plus sign became display:block ------------------*/;
+}
+
+.faq-box .c-faq-section {
+	border-bottom: 1px solid #a1a1a1;
+	width: 100%;
+	padding: 20px 0 20px 0;
+}
+
+.faq-box .c-faq-section:last-child {
+	border-bottom: none;
+}
+
+.faq-box .c-faq-title {
+	font-family: "work_sanssemibold";
+	font-size: 18px;
+	color: #000000;
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.faq-box .c-faq-title:after {
+	position: absolute;
+	content: url("../images/plus.svg");
+	right: 0;
+	top: 0;
+	width: 25px;
+	height: 25px;
+}
+
+.faq-box .c-faq-title.open {
+	position: relative;
+}
+
+.faq-box .c-faq-title.open:after {
+	position: absolute;
+	content: url("../images/minus.svg");
+	right: 0;
+	top: 0;
+	width: 25px;
+	height: 25px;
+}
+
+.faq-box .number {
+	font-family: "work_sanssemibold";
+	font-size: 20px;
+	color: #a1a1a1;
+	margin-right: 10px;
+	display: inline-block;
+	width: 20px;
+}
+
+.faq-box .copy {
+	margin-right: 15px;
+}
+
+.faq-box .c-faq-content {
+	display: none;
+	font-family: "work_sansregular";
+	font-size: 15px;
+	color: #000000;
+	padding: 10px 0 10px 30px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (max-width: 767px) {
+	.faq-box .c-faq-title {
+		font-size: 16px;
+	}
+
+	.faq-box .c-faq-content {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.faq-box .copy {
+		margin-right: 25px;
+	}
+}

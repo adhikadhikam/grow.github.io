@@ -1,0 +1,169 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+/*----------- footer css start here ------------------*/
+
+footer {
+
+    .footer-container{ background-color:#356a1e; text-align:$center; padding:20px 0; color:$white; font-family:$work_sansregular; font-size:12px; }
+    .social-container{ background:url(../images/footer-bg.svg) no-repeat; background-size:cover; width:100%; height:256px;}
+    .social-list { text-align:$center; 
+            ul{ margin:0; padding:0;
+                li{ list-style:none; display:inline-block; padding:10px;
+                    .bg-box{ background-color:$light-blue; width:45px; height:45px; border-radius: 20px; display:flex; align-items: center;justify-content: center; @extend.animate-1; overflow:hidden;  position:relative; z-index:1;
+                        &:hover{  transition: .5s; 
+                           &:before{ top:0;}
+                            a {
+                                img { transform: rotateY(360deg);}  
+                            }
+                            
+                        }
+                        &:before{ position:absolute; left:0; top:100%; width:100%; height:100%; background-color:$blue; content:""; transition: .5s; z-index:2;}
+                        a{ position:relative; z-index: 3;
+                            img{ position: relative; transition: .5s; z-index: 3; width:45px; height:45px; }
+                        }
+                    }
+                
+                }
+            }
+        
+        }
+    
+    
+    .footer-box{ background-color:$green; padding:20px 0;
+        .card-left { 
+            ul{ margin:0; padding:0;
+                li{ list-style:none; display:flex; padding:10px 0; color:$white; font-size:$size16; font-family:$work_sansregular;
+                    .bullet{ margin-right:10px; max-width: 15px;  width: 100%;
+                        
+                    }
+                    a{ color:$white;
+                        &:hover{ color:#a8efaa;}
+                        
+                    }
+                }
+            
+            }
+        }
+        
+        .card-right { display: flex; justify-content: space-between;
+            ul{ margin:0; padding:0;
+                li{ list-style:none; display:list-item; padding:10px 0; color:$white; font-size:$size16; font-family:$work_sansregular; text-transform:$uppercase;
+                      a{ color:$white;
+                        &:hover{ color:#a8efaa;}
+                        
+                    }
+                    
+                    ul{ margin:0; padding:0;
+                        li{ list-style:none; display:list-item; padding:5px 0; color:$white; font-size:13px; font-family:$work_sansregular; position:relative; text-transform:capitalize; margin-left:20px;
+                            &:before{ content:""; position:absolute; left:-20px; top:50%; transform:translateY(-50%);background-color:$white; width:5px; height:1px;}
+                             a{ color:$white;
+                        &:hover{ color:#a8efaa;}
+                        
+                    }
+                            &:first-child{ padding:10px 0; }
+                        }
+                    
+                    }
+                
+                }
+            
+            }
+        
+        }
+        
+        
+        
+        .divider {  position:relative;
+            &:after{ content:""; position:absolute; left:50%; top:20px; height:200px; width:1px; background-color:#81b46c;}
+        }   
+    
+    }
+    
+
+}
+
+footer .social-list ul li:nth-child(1) .bg-box:before { background-color:#3b5999;}
+footer .social-list ul li:nth-child(2) .bg-box:before { background-color:#1Baae1;}
+footer .social-list ul li:nth-child(3) .bg-box:before { background-color:#dd4b39;}
+footer .social-list ul li:nth-child(4) .bg-box:before { background-color:#ff3333;}
+footer .social-list ul li:nth-child(5) .bg-box:before { background-color:#86B32d;}
+footer .social-list ul li:nth-child(6) .bg-box:before { background-color:#4E433c;}
+
+
+
+
+
+
+footer .footer-box .card-left ul li .white-logo a img { max-width: 290px;  height: 46px; width: 100%;}
+
+
+
+/*----------- responsive css start here ------------------*/
+
+@media only screen and (min-width:1025px) and (max-width:1139px) {
+footer .social-container { height:190px;}    
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+footer .social-container { height:170px;}
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+footer .social-container { height:135px;}
+}
+
+
+@media only screen and (max-width:767px) {
+footer .social-container { height:90px;}
+footer .footer-box .card-left ul li { font-size:14px;}
+footer .footer-box .card-right ul li { font-size:14px; }
+}
+
+@media only screen and (max-width:567px) {
+footer .social-container { height:55px;}
+footer .footer-box .divider:after {left: 0;  right: 0; height: 1px; width: 100%; top:50%; transform:translateY(-50%);}
+footer .footer-box .divider { padding:20px 0;} 
+}
+
+
+
+
+
+
+
+

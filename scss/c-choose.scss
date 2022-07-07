@@ -1,0 +1,123 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+
+
+/*----------- choose us css start here ------------------*/
+
+.choose-box { 
+
+    .h2{ margin:25px 0 15px 0;}
+    .p{ margin:0 0 40px 0;}
+    
+    
+    .features-box{
+        ul{ margin:0; padding:0; text-align: center;
+            li{ width:calc(20% - 5px);  display:inline-block; list-style:none; padding:0; margin:0; position:relative; vertical-align: top; margin-bottom:20px;
+                .card-box{ display: flex;  justify-content: center; flex-wrap: wrap;
+
+                   .first-box{ background-color:$white; border:dashed 2px $light-blue; border-radius:100px; padding:10px; width:168px; height:168px;  transition: all 3s;
+  transition-timing-function: ease-in-out;   position: relative;
+                       &:hover{  }
+                       
+                    .second-box{ background-color:$light-blue; border-radius:100px; position:relative; width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+                        
+                        }
+                    }
+                  
+                       
+                
+                .h3 { text-align:$center; color:$black; padding:15px }
+                }
+                
+               
+                
+            }
+        }
+        
+    }
+
+
+}
+
+
+.choose-box .features-box ul li .card-box:hover .first-box .second-box.one{ background-color:$green; @extend.animate-2; }
+.choose-box .features-box ul li .card-box:hover .first-box .second-box.two{ background-color:#ffaa3b; @extend.animate-2;  }
+.choose-box .features-box ul li .card-box:hover .first-box .second-box.three{ background-color:$pink; @extend.animate-2; }
+.choose-box .features-box ul li .card-box:hover .first-box .second-box.four{ background-color:$blue; @extend.animate-2;  }
+.choose-box .features-box ul li .card-box:hover .first-box .second-box.five{ background-color:$green; @extend.animate-2;   }
+
+
+
+.choose-box .features-box ul li .card-box:hover .h3 { color:#0071cd; }
+
+
+
+.choose-box .features-box ul li .card-box .first-box .second-box.one .icon1 { width:64px; height:80px;}
+.choose-box .features-box ul li .card-box .first-box .second-box.two .icon2 { width:75px; height:76px;}
+.choose-box .features-box ul li .card-box .first-box .second-box.three .icon3 { width:79px; height:80px;}
+.choose-box .features-box ul li .card-box .first-box .second-box.four .icon4 { width:88px; height:56px;}
+.choose-box .features-box ul li .card-box .first-box .second-box.five .icon5 { width:68px; height:80px;}
+
+
+
+
+/*----------- responsive css start here ------------------*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px) { 
+
+.choose-box .features-box ul li { width: calc(33.33% - 5px); }  
+}
+
+
+
+@media only screen and (max-width:639px) { 
+    .choose-box .features-box ul li .card-box .first-box { width:150px; height:150px; }
+    
+}
+
+
+@media only screen and (max-width:479px) {
+ 
+.choose-box .features-box ul li { width: calc(75% - 20px); }    
+}

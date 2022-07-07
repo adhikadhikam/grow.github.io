@@ -1,0 +1,445 @@
+/*----------- variable css start here ------------------*/
+/*----------- default css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- aboutus css starts here ------------------*/
+.director-box .left {
+	margin-left: 40px;
+}
+
+.director-box .left .p:last-child {
+	margin-top: 20px;
+}
+
+.director-box .right {
+	margin-top: -150px;
+	display: flex;
+	justify-content: center;
+}
+
+.director-box .right .big-circle {
+	width: 550px;
+	height: 550px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	border: dashed 3px #ec4f8c;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.director-box .right .big-circle .pic-circle {
+	width: 515px;
+	height: 515px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.employee-box .five-in-row {
+	width: 100%;
+	margin: 0px auto;
+	margin: 15px 0;
+}
+
+.employee-box .five-in-row ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.employee-box .five-in-row ul li {
+	list-style: none;
+	width: calc(20% - 5px);
+	vertical-align: top;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.employee-box .five-in-row ul li .big-circle {
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	border: dashed 2px #ec4f8c;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.employee-box .five-in-row ul li .big-circle .pic-circle {
+	width: 174px;
+	height: 174px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.employee-box .five-in-row ul li .h4 {
+	color: #ffffff;
+}
+
+.employee-box .five-in-row ul li .p {
+	color: #ffffff;
+}
+
+.employee-box .four-in-row {
+	width: 100%;
+	margin: 0px auto;
+	margin: 15px 0;
+}
+
+.employee-box .four-in-row ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.employee-box .four-in-row ul li {
+	list-style: none;
+	width: calc(20% - 5px);
+	vertical-align: top;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.employee-box .four-in-row ul li .big-circle {
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	border: dashed 2px #ec4f8c;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.employee-box .four-in-row ul li .big-circle .pic-circle {
+	width: 174px;
+	height: 174px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.employee-box .four-in-row ul li .h4 {
+	color: #ffffff;
+}
+
+.employee-box .four-in-row ul li .p {
+	color: #ffffff;
+}
+
+.employee-text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.five-in-row ul li:hover .hovereffect {
+	width: 100%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.five-in-row ul li:hover .hovereffect .overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(45, 54, 145, 0.8);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.five-in-row ul li:hover .hovereffect img {
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+}
+
+.five-in-row ul li:hover .hovereffect img {
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.five-in-row ul li:hover .hovereffect .overlay {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.four-in-row ul li:hover .hovereffect {
+	width: 100%;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+}
+
+.four-in-row ul li:hover .hovereffect .overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(45, 54, 145, 0.8);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.four-in-row ul li:hover .hovereffect img {
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+}
+
+.four-in-row ul li:hover .hovereffect img {
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.four-in-row ul li:hover .hovereffect .overlay {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.nameplate {
+	display: block;
+}
+
+.nameplate-mob {
+	padding: 10px 0;
+	text-align: center;
+	display: none;
+}
+
+.nameplate-mob .h4 {
+	color: #000000 !important;
+}
+
+.nameplate-mob .p {
+	color: #000000 !important;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+	.employee-box .five-in-row ul li .big-circle {
+		width: 170px;
+		height: 170px;
+	}
+
+	.employee-box .five-in-row ul li .big-circle .pic-circle {
+		width: 143px;
+		height: 143px;
+	}
+
+	.employee-box .four-in-row ul li .big-circle {
+		width: 170px;
+		height: 170px;
+	}
+
+	.employee-box .four-in-row ul li .big-circle .pic-circle {
+		width: 143px;
+		height: 143px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.director-box .right {
+		margin-top: 0;
+	}
+
+	.director-box .right .big-circle {
+		width: 340px;
+		height: 340px;
+	}
+
+	.director-box .right .big-circle .pic-circle {
+		width: 300px;
+		height: 300px;
+	}
+
+	.employee-box .five-in-row ul li {
+		width: calc(25% - 5px);
+		margin-bottom: 20px;
+	}
+
+	.employee-box .four-in-row ul li {
+		width: calc(25% - 5px);
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.employee-box .five-in-row ul li {
+		width: calc(33.33% - 5px);
+		margin-bottom: 20px;
+	}
+
+	.employee-box .four-in-row ul li {
+		width: calc(33.33% - 5px);
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.nameplate {
+		display: none;
+	}
+
+	.nameplate-mob {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.director-box .left {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.director-box .right .big-circle {
+		width: 280px;
+		height: 280px;
+	}
+
+	.director-box .right .big-circle .pic-circle {
+		width: 250px;
+		height: 250px;
+	}
+
+	.director-box .right {
+		margin-top: 50px;
+	}
+
+	.employee-box .five-in-row ul li {
+		width: calc(33.33% - 5px);
+		margin-bottom: 20px;
+	}
+
+	.employee-box .four-in-row ul li {
+		width: calc(33.33% - 5px);
+		margin-bottom: 20px;
+	}
+
+	.employee-box .five-in-row ul li .big-circle {
+		width: 150px;
+		height: 150px;
+	}
+
+	.employee-box .five-in-row ul li .big-circle .pic-circle {
+		width: 130px;
+		height: 130px;
+	}
+
+	.employee-box .four-in-row ul li .big-circle {
+		width: 150px;
+		height: 150px;
+	}
+
+	.employee-box .four-in-row ul li .big-circle .pic-circle {
+		width: 130px;
+		height: 130px;
+	}
+
+	.employee-box .five-in-row {
+		margin: 0 auto;
+	}
+
+	.employee-box .four-in-row {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 567px) {
+	.employee-box .five-in-row ul li {
+		width: calc(33.33% - 5px);
+	}
+
+	.employee-box .four-in-row ul li {
+		width: calc(33.33% - 5px);
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.employee-box .five-in-row ul li {
+		width: calc(50% - 5px);
+	}
+
+	.employee-box .four-in-row ul li {
+		width: calc(50% - 5px);
+	}
+
+	.employee-box .five-in-row ul li .big-circle {
+		width: 130px;
+		height: 130px;
+	}
+
+	.employee-box .five-in-row ul li .big-circle .pic-circle {
+		width: 105px;
+		height: 105px;
+	}
+
+	.employee-box .four-in-row ul li .big-circle {
+		width: 130px;
+		height: 130px;
+	}
+
+	.employee-box .four-in-row ul li .big-circle .pic-circle {
+		width: 105px;
+		height: 105px;
+	}
+}

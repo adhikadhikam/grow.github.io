@@ -1,0 +1,170 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+/*----------- access css start here ------------------*/
+
+
+
+
+
+.how-to-access-box {
+   
+    .bus-box{padding:20px 0;}
+    .car-box{ padding:20px 0;}
+    
+     .blue-box{ position:relative; width:85%; height:60px; background-color:$light-blue; border-top-right-radius:15px; border-bottom-right-radius:15px;  display: flex;
+    align-items: center;  justify-content: space-around; 
+        .bus { position:absolute; left:30px; top:50%; transform:translateY(-50%);
+            .white-circle{  width:100px; height:100px; background-color:$white; padding:10px; border-radius:100px; display: flex; align-items: center; justify-content:center;
+            .dash-circle { width:85px; height:85px; border:dashed 3px $pink; padding:10px;border-radius:100px; justify-content: center;  display: flex; align-items: center;
+                .pic{ }
+                }
+           }
+        }
+            .copy{
+                .h3{ padding-left:125px; color:$white; font-size:22px;}
+            } 
+            
+        }
+     .description{ width: 85%;
+            .p{ }
+            .b{ font-weight:bold;}
+            .pink-copy{ color:$pink; text-decoration: underline; padding:5px 0;
+                a{ color:$pink;
+                    &:hover{ color:$blue; }
+                }
+             }
+             .spacer1{padding: 40px 0 0 0;}
+             .spacer2{padding: 40px 0 20px 0;}
+             .spacer3{padding: 20px 0 0 0;}
+             
+             ul{ padding:0; margin:0; padding-bottom:40px;
+                 li{ list-style:none; display:list-item; padding:0 0 0 5px; font-size:$size16; font-family: $work_sansregular; color:$black;}
+             }
+             
+             
+            }
+    
+}
+
+
+
+.how-to-access-box .bus-box .blue-box .bus .white-circle .dash-circle .pic img { width:45px; height:50px; }
+.how-to-access-box .car-box .blue-box .bus .white-circle .dash-circle .pic img { width:50px; height:36px;}
+
+
+/*----------- responsive css start here ------------------*/
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1139px) {
+
+    
+.how-to-access-box .blue-box .copy .h3{ font-size: 20px;  padding-left: 125px;}
+
+}
+
+
+
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+
+    
+.how-to-access-box .blue-box .copy .h3{ font-size: 18px;  padding-left: 130px;}
+
+}
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+
+.how-to-access-box .blue-box .copy .h3{ font-size: 18px;  padding-left: 145px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px) {
+
+
+    .how-to-access-box .blue-box .copy .h3 { padding-left: 105px;  font-size: 18px; }
+    .how-to-access-box .blue-box .bus{ left:10px;}
+    
+    .how-to-access-box .blue-box .bus .white-circle { width: 90px; height: 90px; }
+    .how-to-access-box .blue-box .bus .white-circle .dash-circle {  width: 75px;  height: 75px; padding:10px; }
+    
+    
+    .how-to-access-box .blue-box .car{ left:10px;}
+    .how-to-access-box .blue-box .car .white-circle { width: 90px; height: 90px; }
+    .how-to-access-box .blue-box .car .white-circle .dash-circle {  width: 75px;  height: 75px; padding:10px; }
+    
+    
+
+}
+
+
+@media only screen and (min-width:640px) and (max-width:767px) {
+    
+    .how-to-access-box .how .col-xs-12{ width:50%; }    
+    .how-to-access-box .blue-box { width:85%;}
+    .how-to-access-box .blue-box .copy .h3 { padding-left: 105px;}
+
+}
+
+
+
+
+
+@media only screen and (max-width:567px) {
+
+.how-to-access-box .blue-box { width:100%;}
+
+}
+

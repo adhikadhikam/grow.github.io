@@ -1,0 +1,215 @@
+/*----------- variable css start here ------------------*/
+
+$work_sansregular:'work_sansregular';
+$work_sanssemibold:'work_sanssemibold';
+
+
+$blue:#2d3691;
+$dark-blue:#363b6a;
+$mid-blue:#0071cd;
+$light-blue:#59abdf;
+
+
+$green:#4b932c;
+$gray:#a1a1a1;
+$pink:#ec4f8c;
+$white:#ffffff;
+$black:#000000;
+
+
+$size36: 36px;
+$size24: 24px;
+$size20: 20px;
+$size18: 18px;
+$size16: 16px;
+$size15: 15px;
+
+$center:center;
+$uppercase:uppercase;
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+.animate-2 { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out;}
+.animate-3 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+
+
+
+/*----------- spotlight css start here ------------------*/
+
+.spotlight-box{ margin: 0 auto; max-width: 1440px;
+    .spotlight-carosel{ 
+        .picture-box { position:relative; width:100%; margin:0px auto;
+            .picture{ }
+            .pic-copy-box{ position:absolute; right:0; top:50px; width:100%;
+            .content-box{ background-color:rgba(0,0,0,0.6);  border:dashed 2px $gray; padding:40px; position:relative; border-radius: 15px; float:right; width:40%;
+                .p{ color:$white; }
+                .h1{ color:$white; }
+                
+                   
+                 .more{ position:absolute; bottom:-50px; left:10%;
+                             .click { background-color:$pink; font-family:$work_sanssemibold;  font-size:$size18; color:$white; text-align:$center;  border-radius:10px; display:inline-block; @extend.animate-3;  margin:30px 0;
+    a {color:$white; padding:12px 15px; display:inline-block; border-radius:10px;
+        &:hover { color:$white; padding:12px 15px; }
+    }
+} 
+                        } 
+                }
+        }
+        .curve-box{ position:absolute; bottom:0; left:0; }
+        }
+        
+        
+     .slick-prev:before { color:$pink; font-size: 50px;}
+     .slick-next:before { color:$pink; font-size: 50px;}
+     .slick-next:before { content:' \203A'; top:0; right:30px; position:absolute; } 
+     .slick-prev:before { content:' \2039'; top:0; left:30px; position:absolute;  }
+     .slick-prev{top:40%;  background-color:$white; width: 60px; height: 60px; border-radius: 100px; left: -25px; z-index:10;}
+     .slick-next{top:40%;  background-color:$white; width: 60px; height: 60px; border-radius: 100px; right: -25px; z-index:10;}
+     
+       
+    }
+        
+    
+}
+
+
+  .get-discover-box{ background-color:$mid-blue; width:100%; padding:20px 0 100px 0; max-width:1440px; margin:0px auto; position:relative; margin-bottom: 150px;
+        
+        .get-discover-details { 
+            .p{ color:$white; margin:15px 0;}
+            .h2{ color:$white; margin:-5px 0 0 0;}
+            .h2:before { content: none;}
+            
+            .details-box { display:flex;
+                .first{ width:80px; display:block; }
+                .second{ }
+            
+            }
+            .h4{ 
+                a{ color:$white; text-decoration: underline;
+                
+                    &:hover{ color:#a8efaa; text-decoration: underline; }
+                }
+            }
+        
+        }
+    
+     .divider-small {  position:relative;
+            &:after{ content:""; position:absolute; left:50%; top:0; height:150px; width:1px; background-color:#338dd7;}
+        }
+      
+      .activity-box {position: absolute;  left: 50%; width: 80%;  margin: 40px auto; transform: translateX(-50%); 
+          
+          .activity-list{ width: 80%; margin: 0px auto;
+              ul{ padding:0; margin:0;
+                  li{ list-style:none; display:inline-block; width:calc(33.33% - 5px);margin: 0px auto; text-align: center; vertical-align: top; position:relative;
+                      
+                      a{ color:$black;} 
+                      
+.flower-box{ position:relative;  transition: all 3s;  transition-timing-function: ease-in-out;
+                      
+.gol-all-box{ }
+.gol-box{ display:flex; align-items:center; justify-content:center;}
+.gol1 { margin-bottom: -30px; }
+.gol4{ margin-right: -20px;}
+.gol-box2 { margin-top: -20px; }
+.gol {border: solid 3px #ffffff; width: 50px; height: 50px; border-radius: 100px; background-color:$pink;}
+.inner-gol-box{ position: absolute; left: 50%; transform: translateX(-50%); top: 15px; }
+.inner-gol{ width: 77px; height: 78px; background-color:$pink; border-radius: 100px; display: flex; align-items: center; justify-content: center; }       
+                      
+                    
+                      
+ }      
+                      .pink-box{ width:100px; height:100px; background-color:$pink; border:solid 2px $white; border-radius:5px; position:relative; display:flex; align-items:center; justify-content:center; text-align: center;
+    margin: 0px auto;
+                           
+                      }
+                      
+                      .pic-box{ position: absolute;   left: 50%;  transform: translateX(-50%);  top: calc(100% - 85%); }
+                      .p{ padding:10px 0; font-family:$work_sanssemibold; 
+                         
+                      
+                      }  
+                  }
+              }
+          }
+          
+          
+      }
+    }
+
+
+
+.get-discover-box .activity-box .activity-list ul li:hover .p{ color:#0071cd; }
+
+
+.get-discover-box .activity-box .activity-list ul li:hover .flower-box.day .gol { background-color:$blue;  @extend.animate-2;  }
+.get-discover-box .activity-box .activity-list ul li:hover .flower-box.day .inner-gol { background-color:$blue; @extend.animate-2;   }
+
+
+
+.get-discover-box .activity-box .activity-list ul li:hover .flower-box.kind .gol { background-color:#ffaa3b; @extend.animate-2; }
+.get-discover-box .activity-box .activity-list ul li:hover .flower-box.kind .inner-gol { background-color:#ffaa3b; @extend.animate-2;  }
+
+
+
+.get-discover-box .activity-box .activity-list ul li:hover .flower-box.class .gol { background-color:$green; @extend.animate-2;}
+.get-discover-box .activity-box .activity-list ul li:hover .flower-box.class .inner-gol { background-color:$green; @extend.animate-2;   }
+
+
+
+.get-discover-box .get-discover-details .details-box .first img{ width:25px; height:25px;}
+
+.spotlight-box .spotlight-carosel .picture-box .curve-box .curve-shape img{ width:1440px; max-width:100%;}
+
+
+
+.get-discover-box .activity-box .activity-list ul li:first-child .pic-box img { width:55px; height:49px; }
+.get-discover-box .activity-box .activity-list ul li:nth-child(2) .pic-box img { width:55px; height:54px; }
+.get-discover-box .activity-box .activity-list ul li:last-child .pic-box img { width:55px; height:49px; }
+
+
+
+/*----------- responsive css start here ------------------*/
+
+@media only screen and (min-width:1025px) and (max-width:1139px) {
+   
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+
+}
+
+
+
+@media only screen and (max-width:991px) {
+.spotlight-box { margin: 60px auto 0 auto;}
+
+}
+
+@media only screen and (max-width:767px) {
+
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box {right:auto; top: 40px; left: 50%; transform: translateX(-50%); width: 90%;}
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box { padding:30px 25px;}
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box .more .click { font-size: 16px; }
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box .more .click a{ padding:10px;}
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box { width:70%;}
+.get-discover-box .get-discover-details .details-box{ margin-bottom:50px;}
+.get-discover-box .activity-box{ width:100%;}
+.get-discover-box .activity-box .activity-list { width:100%; }
+    
+}
+
+@media only screen and (max-width:567px) {
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box { width:100%;}
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box { padding:30px 13px;}
+.spotlight-box .spotlight-carosel .picture-box .pic-copy-box .content-box .more .click { margin: 20px 0; font-size: 16px; }
+}
+
+
+
+
+
+
+
+

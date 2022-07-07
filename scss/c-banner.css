@@ -1,0 +1,182 @@
+/*----------- variable css start here ------------------*/
+.animate-1 {
+	transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+}
+
+.animate-2 {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.animate-3 {
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+/*----------- banner css start here ------------------*/
+.c-banner-box {
+	background-color: #ebf5fb;
+}
+
+.c-banner-box .banner-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.c-banner-box .banner-content .first {
+	align-self: flex-end;
+}
+
+.c-banner-box .banner-content .first .hand-pic {
+	text-align: center;
+}
+
+.c-banner-box .banner-content .first .hand-pic .hand-banner {
+	max-width: 241px;
+	max-height: 217px;
+	width: 80%;
+}
+
+.c-banner-box .banner-content .second {
+	font-family: "work_sanssemibold";
+	color: #000000;
+	font-size: 28px;
+}
+
+.c-banner-box .banner-content .third {
+	background-color: #2d3691;
+	-webkit-box-shadow: -5px -1px 10px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: -5px -1px 10px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: -5px -1px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.c-banner-box .banner-content .third .copy-box {
+	text-align: center;
+	padding: 20px 40px;
+}
+
+.c-banner-box .banner-content .third .copy-box .tel img {
+	max-width: 48px;
+	max-height: 48px;
+	width: 100%;
+}
+
+.c-banner-box .banner-content .third .copy-box .h2 {
+	font-family: "work_sanssemibold";
+	color: #ffffff;
+	font-size: 36px;
+	margin: 15px 0;
+}
+
+.c-banner-box .banner-content .third .copy-box .h2:before {
+	content: none;
+}
+
+.c-banner-box .banner-content .third .copy-box .p {
+	font-family: "work_sansregular";
+	color: #ffffff;
+	font-size: 18px;
+}
+
+/*----------- responsive css start here ------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.c-banner-box .banner-content .second {
+		font-size: 22px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .h2 {
+		font-size: 24px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .p {
+		font-size: 15px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box {
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.c-banner-box .banner-content .second {
+		font-size: 20px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .h2 {
+		font-size: 22px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .p {
+		font-size: 14px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box {
+		padding: 10px;
+	}
+
+	.c-banner-box .banner-content .first .hand-pic .hand-banner {
+		width: 75%;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .tel img {
+		width: 20%;
+	}
+}
+
+@media only screen and (min-width: 568px) and (max-width: 640px) {
+	.c-banner-box .banner-content .second {
+		font-size: 18px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .h2 {
+		font-size: 20px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .p {
+		font-size: 14px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box {
+		padding: 7px;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .tel img {
+		width: 20%;
+	}
+}
+
+@media only screen and (max-width: 567px) {
+	.c-banner-box .banner-content {
+		flex-wrap: wrap;
+	}
+
+	.c-banner-box .banner-content .third {
+		order: 2;
+	}
+
+	.c-banner-box .banner-content .second {
+		order: 0;
+		font-size: 18px;
+		padding: 20px 15px;
+		text-align: center;
+	}
+
+	.c-banner-box .banner-content .first {
+		order: 1;
+	}
+
+	.c-banner-box .banner-content .third .copy-box .tel img {
+		width: 12%;
+	}
+}
